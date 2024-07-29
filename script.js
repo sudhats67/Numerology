@@ -77,7 +77,7 @@ function getZodiacNumber(dateStr) {
         { start: { day: 23, month: 7 }, end: { day: 22, month: 8 }, number: 1 },   // Leo
         { start: { day: 23, month: 8 }, end: { day: 22, month: 9 }, number: 5 },   // Virgo
         { start: { day: 23, month: 9 }, end: { day: 22, month: 10 }, number: 6 },  // Libra
-        { start: { day: 23, month: 10 }, end: { day: 21, month: 11 }, number: 9 }, // Scorpio
+        { start: { day: 23, month: 10 }, end: { day: 21, month: 11 }, number: 22 }, // Scorpio
         { start: { day: 22, month: 11 }, end: { day: 21, month: 12 }, number: 3 }, // Sagittarius
         { start: { day: 22, month: 12 }, end: { day: 19, month: 1 }, number: 8 },  // Capricorn
         { start: { day: 20, month: 1 }, end: { day: 18, month: 2 }, number: 4 },   // Aquarius
