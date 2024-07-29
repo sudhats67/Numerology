@@ -3,23 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Numerology App</title>
+    <title>Numerology Calculator</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
-        <h1>Numerology App</h1>
-        <form id="numerologyForm">
-            <label for="dateOfBirth">Date of Birth:</label>
-            <input type="date" id="dateOfBirth" required>
-            <button type="button" onclick="calculateNumerology()">Calculate</button>
+        <h1>Numerology Calculator</h1>
+        <form id="numerology-form">
+            <label for="birthdate">Birthdate (dd/mm/yyyy):</label>
+            <input type="text" id="birthdate" name="birthdate" required placeholder="dd/mm/yyyy"><br><br>
+            <button type="submit">Calculate</button>
         </form>
-        <div class="results">
-            <p>Birth Number: <span id="birthNumber"></span></p>
-            <p>Destiny Number: <span id="destinyNumber"></span></p>
-            <p>Zodiac Number: <span id="zodiacNumber"></span></p>
-            <p>Missing Number: <span id="missingNumber"></span></p>
-        </div>
+        <div id="result"></div>
     </div>
     <script src="script.js"></script>
 </body>
